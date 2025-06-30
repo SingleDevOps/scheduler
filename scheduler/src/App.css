@@ -2,3 +2,17 @@
   text-align: center;
 }
 
+.Buttons {
+  margin: 20px;
+}
+
+.TaskList-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+  width: 100%;
+  background-color: #f8f9fa;
+  justify-content: center;
+  box-sizing: border-box;
+}

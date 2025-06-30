@@ -1,5 +1,6 @@
-import React from 'react';
+
 import Task, {TaskProp} from './Task.tsx';
+import '../CSS/TaskList.css';
 const TaskList = ({ items }) => {
     if (!items || items.length === 0) {
         return (

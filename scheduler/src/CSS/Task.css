@@ -1,0 +1,39 @@
+.task {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 12px 0;
+  border-left: 4px solid #007bff; /* Add accent color */
+  background: linear-gradient(to right, #f8f9fa, #ffffff); /* Subtle gradient */
+}
+
+.task:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.task h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.task p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.task .task-meta {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #999;
+}
