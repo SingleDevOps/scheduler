@@ -8,14 +8,20 @@
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   margin: 12px 0;
-  border-left: 4px solid #007bff; /* Add accent color */
-  background: linear-gradient(to right, #f8f9fa, #ffffff); /* Subtle gradient */
+  border-left: 4px solid #0d1b2a;
+  background: linear-gradient(to right, #f8f9fa, #ffffff);
 }
 
 .task:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
+
+.task.expanded {
+  transform: scale(1.6);
+}
+
+
 
 .task h3 {
   margin: 0 0 8px 0;

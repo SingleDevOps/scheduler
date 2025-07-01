@@ -8,6 +8,10 @@ import { getTasks } from './db/db.ts';
   const tasks = [
     { id: 1, title: 'Learn React', description: 'Study React fundamentals' },
     { id: 2, title: 'Build a Portfolio', description: 'Create a personal website' },
+    { id: 1, title: 'Learn React', description: 'Study React fundamentals' },
+    { id: 2, title: 'Build a Portfolio', description: 'Create a personal website' },
+    { id: 1, title: 'Learn React', description: 'Study React fundamentals' },
+    { id: 2, title: 'Build a Portfolio', description: 'Create a personal website' },
   ];
 function App() {
 

@@ -11,8 +11,7 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 40px 20px;
-  width: 100%;
-  background-color: #f8f9fa;
+  width: 66.66vw;
   justify-content: center;
   box-sizing: border-box;
 }
